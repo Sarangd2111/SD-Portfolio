@@ -17,11 +17,11 @@ import game_theme from '../images/game_theme.jpg'
 import dust_theme from '../images/dust_theme.jpg'
 
 export const navElements = [
-  { element: "Home", path: "/" },
-  { element: "About", path: "/about" },
-  { element: "Skills", path: "/skills" },
-  { element: "Projects", path: "/projects" },
-  { element: "Contact", path: "/contact" },
+  { element: "Home", path: "/SD-Portfolio/" },
+  { element: "About", path: "/SD-Portfolio/about" },
+  { element: "Skills", path: "/SD-Portfolio/skills" },
+  { element: "Projects", path: "/SD-Portfolio/projects" },
+  { element: "Contact", path: "/SD-Portfolio/contact" },
 ];
 
 export const nameLetters = [
