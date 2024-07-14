@@ -1,0 +1,133 @@
+body {
+  margin: 0;
+  font-family: "Teko", sans-serif !important;
+  overflow-x: hidden;
+  max-width: 100vw;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+[site-theme="game"] {
+  --background: rgb(30, 30, 30);
+  --main-font-color: #6bf8ff;
+  --name-font-color: #6bf8ff;
+  --details-font-color: white;
+  --nav-color: black;
+  --secondary-font-color: white;
+  --secondary-background: rgb(38, 38, 38);
+  --card-background-color: rgb(38, 38, 38);
+  --card-back-background-color: black;
+  --card-line-color: #6bf8ff;
+  --card-border-color: rgb(30, 30, 30);
+  --nav-font-color: white;
+  --nav-font-hover-color: #6bf8ff;
+  --nav-shadow: #6bf8ff;
+  --button-background-color: rgb(38, 38, 38);
+  --button-text-color: #6bf8ff;
+  --primary-shadow: black;
+  --light-shadow: #6bf8ff;
+  --box-border-color: rgb(38, 38, 38);
+  --box-background: rgb(30, 30, 30);
+  --cube-face-color: black;
+  --panel-background-color: black;
+  --panel-font-color: #6bf8ff;
+  --timeline-border-color: white;
+  --panel-button-color: #6bf8ff;
+  --border-gradient: linear-gradient(
+    45deg,
+    #6bf8ff 0%,
+    #4be4ec 11%,
+    #1ccfd9 22%,
+    #01b2bc 33%,
+    #019198 44%,
+    #019198 55%,
+    #01a4ad 66%,
+    #1cc1ca 77%,
+    #49dce4 89%,
+    #6bf8ff 100%
+  );
+}
+
+[site-theme="dust"] {
+  --background: #fdf7e4;
+  --main-font-color: #ded0b6;
+  --name-font-color: #837357;
+  --details-font-color: #4b4523;
+  --nav-color: #bbab8c;
+  --nav-font-hover-color: #4b4523;
+  --timeline-border-color: white;
+  --card-line-color: #bbab8c;
+  --secondary-font-color: white;
+  --secondary-background: #6e6537;
+  --nav-font-color: white;
+  --panel-button-color: #4b4523;
+  --nav-shadow: #837357;
+  --button-background-color: rgb(38, 38, 38);
+  --button-text-color: #2e2a16;
+  --primary-shadow: #837357;
+  --light-shadow: #4b4523;
+  --box-border-color: #837357;
+  --cube-face-color: #2e2a16;
+  --panel-background-color: #837357;
+  --box-background: #837357;
+  --panel-font-color: #7e6f16;
+  --card-background-color: #837357;
+  --card-border-color: #4b4523;
+  --card-back-background-color: #4b4523;
+  --border-gradient: linear-gradient(
+    45deg,
+    #ffea81 0%,
+    #a09352 11%,
+    #6e6537 22%,
+    #706737 33%,
+    #2e2a16 44%,
+    #2e2a16 55%,
+    #534c29 66%,
+    #6e6537 77%,
+    #a09352 89%,
+    #ffea81 100%
+  );
+}
+
+[site-theme="forest"] {
+  --card-border-color: #29250f;
+  --background: url("./images/forest.jpg");
+  --main-font-color: #1a4223;
+  --name-font-color: #ade6ba;
+  --details-font-color: #d2ccac;
+  --nav-color: #29250f;
+  --nav-font-hover-color: rgb(192, 240, 214);
+  --secondary-font-color: #2e2a16;
+  --secondary-background: #ada78a;
+  --nav-font-color: white;
+  --nav-shadow: #1a4223;
+  --button-background-color: rgb(38, 38, 38);
+  --timeline-border-color: #1e1b08;
+  --card-line-color: #1a4223;
+  --button-text-color: #98e2a9;
+  --primary-shadow: black;
+  --light-shadow: #1a4223;
+  --box-border-color: #5d5630;
+  --box-background: #ada78a;
+  --cube-face-color: #1e1b08;
+  --panel-background-color: #ada78a;
+  --panel-font-color: #1a4223;
+  --card-back-background-color: #897e3f;
+  --card-background-color: #ada78a;
+  --panel-button-color: #6ece7f;
+  --border-gradient: linear-gradient(
+    45deg,
+    #54d472 0%,
+    #358949 11%,
+    #2a6a39 22%,
+    #1a4223 33%,
+    #122f18 44%,
+    #122f18 55%,
+    #1a4223 66%,
+    #2a6a39 77%,
+    #358949 89%,
+    #54d472 100%
+  );
+}
