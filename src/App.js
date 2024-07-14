@@ -24,7 +24,7 @@ function App() {
         toggleThemePopup();
       }
     }
-    else{
+    else {
       window.alert(`${themeName} Theme applied already`)
     }
   };
@@ -48,11 +48,11 @@ function App() {
     <div className="App" site-theme={currentTheme}>
       <BrowserRouter>
         <Routes>
-          <Route path='/' element={<Home />} />
-          <Route path='/about' element={<About />} />
-          <Route path='/skills' element={<Skills />} />
-          <Route path='/projects' element={<Project />} />
-          <Route path='/contact' element={<Contact />} />
+          <Route path='/SD-Portfolio/' element={<Home />} />
+          <Route path='/SD-Portfolio/about' element={<About />} />
+          <Route path='/SD-Portfolio/skills' element={<Skills />} />
+          <Route path='/SD-Portfolio/projects' element={<Project />} />
+          <Route path='/SD-Portfolio/contact' element={<Contact />} />
         </Routes>
       </BrowserRouter>
       {showThemePopup && (
